@@ -15,17 +15,17 @@ Link: (https://dashboard-penjualan-vercel-production.up.railway.app/)
    - composer install
    - cp .env.example .env
 3. Atur konfigurasi environmennt
-    DB_CONNECTION=mysql
-    DB_HOST=your_db_host
-    DB_PORT=3306
-    DB_DATABASE=your_db_name
-    DB_USERNAME=your_db_user
-    DB_PASSWORD=your_db_password
-4. Generate app key
+   - DB_CONNECTION=mysql
+   - DB_HOST=your_db_host
+   - DB_PORT=3306
+   - DB_DATABASE=your_db_name
+   - DB_USERNAME=your_db_user
+   - DB_PASSWORD=your_db_password
+5. Generate app key
    - php artisan key:generate
-5. Migrasi database & seed data
+6. Migrasi database & seed data
    - php artisan migrate --seed
-6. Jalankan server lokal
+7. Jalankan server lokal
    - php artisan serve
 
 🛠️ Tools yang Digunakan
